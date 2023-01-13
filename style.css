@@ -1,0 +1,36 @@
+.square{
+background-color: blue;
+height: 100px;
+width: 100px;
+animation-name: square;
+animation-duration: 6000ms;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: normal;
+animation-delay: 1000ms;    
+}
+.fon{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+}
+
+
+
+@keyframes square{
+0%{
+   transform: translate(0px,0px) ;
+}
+25%{
+    transform: translate(0px,400px) ;
+}
+50%{
+    transform: translate(400px,400px) ;
+}
+75%{
+    transform: translate(400px,0px) ;
+}
+100%{
+    transform: translate(0px,0px) ;
+}
+}
